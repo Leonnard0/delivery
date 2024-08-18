@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    display: flex;
+   
+
+}
+.voltarbotao{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 90px;
+    
+    border-radius: 25%;
+  
+    
+}
+.voltarbotao a{
+    text-decoration: none;
+    color: white;
+    background-color: #bd5b14;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 30px;
+    
+
+    
+    
+}
+.pedidos{
+       display: flex;
+        height: 90px;
+        padding: 15px;
+        border-radius: 25%;
+        
+        text-align: center;
+        
+
+        
+        
+
+}
+.pedidos b{
+    color: white;
+    background-color: #bd5b14;
+    padding: 20px;
+    padding-left: 100px;
+     padding-right: 100px;
+     border-radius: 30px;
+     font-size: 30px;
+     height: 70px;
+     
+    
+
+
+}
+.div-pedidos{
+    display: flex;
+    justify-content: center;
+
+}
+.caixas{
+    display: grid;
+    background-color: #DC8A4E;
+   height: 250px;
+   width: 500px;
+   border-radius: 30px;
+   grid-template-columns: 1fr, 60px;
+   
+   font-size: 30px;
+   justify-content: center;
+   
+    
+}
+.container{
+    height: 800px;
+    display:grid;
+    justify-content:center ;
+}
+.container .caixas2{
+    background-color: #DC8A4E;
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    justify-content: center;
+    display: grid;
+    
+
+}
+
+   
+.caixas {
+    background-color: #DC8A4E; /* Cor da caixa */
+    padding: 20px;
+    border-radius: 30px; /* Borda arredondada */
+    text-align: center; /* Centraliza o texto */
+}
+
+label {
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff; /* Cor do texto */
+}
+.realizarpedidobox{
+    display: grid;
+    background-color: #DC8A4E;
+   height: 100px;
+   width: 500px;
+   border-radius: 30px;
+   justify-content: center;
+
+}
+.realizarpedidobox b{
+    font-size: 30px;
+    color: #fff;
+    padding: 30px;
+}
+body{
+    background-image: url(https://www.gov.br/turismo/pt-br/assuntos/noticias/a-melhor-pizzaria-da-america-latina-e-do-brasil/design-sem-nome-76.png/@@images/c0f31c78-832e-4713-ab55-68b1ec1f9294.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

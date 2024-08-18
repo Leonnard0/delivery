@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div b{
+    background-color: #d2691e;
+    padding: 20px;
+    border-radius: 30px;
+    
+
+}
+div a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
+}
+div{
+    margin-top: 40px;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    
+}
+header{
+   display: flex;
+}
+.container{
+    display: grid;
+    height: 40px;
+    justify-content: center;
+   
+}
+.filho{
+    height:50px;
+    background-color: #B66E3A;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+     justify-content: center;
+     border: 2px black solid;
+     
+   
+    
+}
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/deliciosa-pizza-italiana-com-vegetais-gerada-por-ia_188544-38827.jpg?t=st=1723907059~exp=1723910659~hmac=4d1724dbf20bf2d676e8ac1b90b799d5cf1d2af75d20fe05b9e8b69a1509e8cd&w=1480);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+input{
+    background-color: #ffffff;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+}
+.filho3{ 
+    height: 300px;
+    border: 2px black solid;
+    border-radius: 30px;
+}
+.engloba{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+.contato-slide{
+    justify-content: center;
+
+}
+
+.contato-slide b{
+    color: #fff;
+}
+input::placeholder{
+    color: #000000;
+   
+    
+}

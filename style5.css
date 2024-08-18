@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(https://img.freepik.com/fotos-gratis/pizza-deliciosa-dentro-de-casa_23-2150873870.jpg?t=st=1723905955~exp=1723909555~hmac=7089b51b984903928fed99f29182d085613a321fdea9d366cefa2bf4f78db2b8&w=1480);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2691e; 
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.verde {
+    background-color: #4CAF50; 
+    color: #fff;
+}
+
+button:last-child {
+    background-color: #d2691e;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+textarea::placeholder{
+    color: #fff;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button a{
+    background-color: #d2691e;
+    padding: 15px;
+    padding-left: 140px;
+    padding-right: 130px;
+    border-radius: 30px;
+}
